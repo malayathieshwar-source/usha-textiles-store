@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Usha Textiles | Women’s &amp; Kids’ Wear, Kurnool</title>
+<meta name="description" content="Usha Textiles, women’s clothing and kids’ wear at Minchin Bazaar, Kurnool. Online store coming soon.">
+<style>
+:root{
+  --indigo:#1f2a5c; --indigo-d:#141c42; --gold:#e8a317; --madder:#b0364b;
+  --bg:#f4f6fa; --card:#ffffff; --ink:#14172b; --muted:#5b6078; --line:#dde1ec;
+  --serif:"Iowan Old Style","Palatino Linotype",Georgia,serif;
+  --sans:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:var(--sans);background:var(--bg);color:var(--ink);line-height:1.5;
+  padding-bottom:env(safe-area-inset-bottom,0)}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.wrap{max-width:1000px;margin:0 auto;padding:0 18px}
+
+header{position:sticky;top:0;z-index:10;background:var(--indigo-d);color:#fff;
+  padding-top:env(safe-area-inset-top,0)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:56px}
+.brand{font-family:var(--serif);font-size:1.25rem;font-weight:700;text-decoration:none}
+.btn{display:inline-block;border:0;border-radius:999px;padding:10px 18px;font:600 .95rem var(--sans);
+  text-decoration:none;cursor:pointer;background:var(--gold);color:var(--ink);text-align:center}
+.btn.wa{background:#25d366;color:#06361a}
+.btn.ghost{background:transparent;border:2px solid var(--indigo);color:var(--indigo)}
+
+/* Hero with a woven-cloth pattern */
+.hero{color:#fff;background-color:var(--indigo);
+  background-image:
+    repeating-linear-gradient(0deg,rgba(255,255,255,.07) 0 2px,transparent 2px 10px),
+    repeating-linear-gradient(90deg,rgba(232,163,23,.12) 0 2px,transparent 2px 10px);
+  padding:44px 0 40px}
+.hero h1{font-family:var(--serif);font-size:clamp(2.4rem,9vw,4.2rem);line-height:1.05;margin:0 0 12px}
+.hero p{margin:0 0 20px;max-width:34ch;font-size:1.05rem;color:#dfe3f5}
+.soon{display:inline-block;background:var(--gold);color:var(--ink);font-weight:700;
+  padding:6px 14px;border-radius:6px;margin-bottom:16px}
+.status{display:inline-flex;align-items:center;gap:8px;margin-top:18px;font-size:.95rem;color:#dfe3f5}
+.dot{width:10px;height:10px;border-radius:50%;background:#9aa0b8}
+.dot.open{background:#3ddc84}
+.dot.closed{background:var(--madder)}
+.cta{display:flex;gap:10px;flex-wrap:wrap}
+
+section{padding:34px 0}
+h2{font-family:var(--serif);font-size:1.7rem;margin:0 0 6px}
+.sub{color:var(--muted);margin:0 0 18px}
+
+/* Demo notice */
+.notice{background:#fff7e0;border-left:5px solid var(--gold);padding:12px 14px;border-radius:6px;
+  margin-bottom:18px;font-size:.95rem}
+
+/* Search and filters */
+.tools{display:grid;gap:12px;margin-bottom:18px}
+input[type=search]{width:100%;padding:13px 16px;border:1.5px solid var(--line);border-radius:12px;
+  font:1rem var(--sans);background:#fff}
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chip{border:1.5px solid var(--indigo);background:#fff;color:var(--indigo);border-radius:999px;
+  padding:8px 16px;font:600 .9rem var(--sans);cursor:pointer}
+.chip[aria-pressed=true]{background:var(--indigo);color:#fff}
+
+/* Product grid */
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+@media(min-width:700px){.grid{grid-template-columns:repeat(4,1fr)}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;
+  display:flex;flex-direction:column}
+.swatch{aspect-ratio:4/5;position:relative;
+  background-image:repeating-linear-gradient(45deg,rgba(255,255,255,.18) 0 6px,transparent 6px 14px)}
+.tag{position:absolute;top:8px;left:8px;background:rgba(20,23,43,.85);color:#fff;font-size:.72rem;
+  font-weight:700;padding:3px 8px;border-radius:5px}
+.info{padding:10px 12px 12px;display:flex;flex-direction:column;gap:6px;flex:1}
+.info h3{font-size:.98rem;margin:0}
+.meta{font-size:.82rem;color:var(--muted)}
+.info .btn{margin-top:auto;padding:9px 10px;font-size:.88rem}
+.empty{padding:26px;text-align:center;color:var(--muted);background:#fff;border:1px dashed var(--line);
+  border-radius:12px}
+
+/* Visit */
+.visit{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.rows{display:grid;gap:14px;margin:16px 0 20px}
+@media(min-width:700px){.rows{grid-template-columns:repeat(3,1fr)}}
+.rows div{padding:14px;border-radius:12px;background:var(--bg)}
+.rows b{display:block;margin-bottom:4px;font-family:var(--serif);font-size:1.05rem}
+footer{padding:22px 0 30px;color:var(--muted);font-size:.85rem;text-align:center}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="brand" href="#top">Usha Textiles</a>
+    <a class="btn wa" href="https://wa.me/917013768480" target="_blank" rel="noopener">WhatsApp</a>
+  </div>
+</header>
+
+<main id="top">
+  <div class="hero">
+    <div class="wrap">
+      <span class="soon">Online store coming soon</span>
+      <h1>Usha Textiles</h1>
+      <p>Women’s clothing and kids’ wear at Minchin Bazaar, Kurnool.</p>
+      <div class="cta">
+        <a class="btn wa" id="heroWa" href="https://wa.me/917013768480" target="_blank" rel="noopener">Message us on WhatsApp</a>
+        <a class="btn" href="#visit">Visit the shop</a>
+      </div>
+      <div class="status"><span class="dot" id="dot"></span><span id="statusText">Open 10:30 AM to 10:00 PM</span></div>
+    </div>
+  </div>
+
+  <section id="shop">
+    <div class="wrap">
+      <h2>Store preview</h2>
+      <p class="sub">A look at how browsing will work once the store opens.</p>
+      <div class="notice"><b>Demo only.</b> These items are samples to test the design. They are not real stock and have no prices. Ask us on WhatsApp for what is actually available.</div>
+
+      <div class="tools">
+        <input type="search" id="q" placeholder="Search demo items" aria-label="Search demo items">
+        <div class="chips" id="chips">
+          <button class="chip" data-c="All" aria-pressed="true">All</button>
+          <button class="chip" data-c="Women" aria-pressed="false">Women</button>
+          <button class="chip" data-c="Kids" aria-pressed="false">Kids</button>
+        </div>
+      </div>
+
+      <div class="grid" id="grid"></div>
+      <div class="empty" id="empty" hidden>No demo items match. Try a different word.</div>
+    </div>
+  </section>
+
+  <section class="visit" id="visit">
+    <div class="wrap">
+      <h2>Visit or contact us</h2>
+      <div class="rows">
+        <div><b>Address</b>Shop No. 18/137-1B, Minchin Bazaar, Kurnool, Andhra Pradesh, India</div>
+        <div><b>Opening hours</b>Every day, 10:30 AM to 10:00 PM</div>
+        <div><b>WhatsApp</b><a href="https://wa.me/917013768480" target="_blank" rel="noopener">7013768480</a></div>
+      </div>
+      <div class="cta">
+        <a class="btn wa" href="https://wa.me/917013768480" target="_blank" rel="noopener">Chat on WhatsApp</a>
+        <a class="btn ghost" target="_blank" rel="noopener"
+           href="https://www.google.com/maps/search/?api=1&query=Minchin+Bazaar+Kurnool+Andhra+Pradesh">Open in Maps</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer><div class="wrap">© <span id="yr"></span> Usha Textiles, Kurnool. Preview site: demo items only.</div></footer>
+
+<script>
+(function(){
+  var WA = "917013768480";
+
+  // Demo items only: not real stock. No prices on purpose.
+  var items = [
+    {n:"Demo kurta set",        c:"Women", s:"S, M, L, XL",  col:"#b0364b"},
+    {n:"Demo cotton saree",     c:"Women", s:"Free size",    col:"#1f2a5c"},
+    {n:"Demo dupatta",          c:"Women", s:"Free size",    col:"#e8a317"},
+    {n:"Demo leggings",         c:"Women", s:"M, L, XL",     col:"#2f6f62"},
+    {n:"Demo frock",            c:"Kids",  s:"2-3, 4-5, 6-7 yrs", col:"#d9667a"},
+    {n:"Demo kids kurta",       c:"Kids",  s:"4-5, 6-7, 8-9 yrs", col:"#3b5bb5"},
+    {n:"Demo t-shirt and shorts",c:"Kids", s:"3-4, 5-6, 7-8 yrs", col:"#e08a2c"},
+    {n:"Demo party wear",       c:"Kids",  s:"2-3, 4-5 yrs", col:"#7a3f98"}
+  ];
+
+  var cat = "All", grid = document.getElementById("grid"),
+      empty = document.getElementById("empty"), q = document.getElementById("q");
+
+  function esc(t){var d=document.createElement("div");d.textContent=t;return d.innerHTML;}
+
+  function waLink(text){return "https://wa.me/"+WA+"?text="+encodeURIComponent(text);}
+
+  function render(){
+    var term = q.value.trim().toLowerCase();
+    var list = items.filter(function(i){
+      return (cat==="All"||i.c===cat) && (i.n+" "+i.c).toLowerCase().indexOf(term)>-1;
+    });
+    grid.innerHTML = list.map(function(i){
+      var msg = "Hello Usha Textiles, I’m interested in "+i.c.toLowerCase()+" wear. What do you have available?";
+      return '<article class="card">'+
+        '<div class="swatch" style="background-color:'+i.col+'"><span class="tag">DEMO ITEM</span></div>'+
+        '<div class="info"><h3>'+esc(i.n)+'</h3>'+
+        '<span class="meta">'+esc(i.c)+' · Sizes: '+esc(i.s)+'</span>'+
+        '<span class="meta">Price and stock: ask on WhatsApp</span>'+
+        '<a class="btn wa" target="_blank" rel="noopener" href="'+waLink(msg)+'">Ask on WhatsApp</a>'+
+        '</div></article>';
+    }).join("");
+    empty.hidden = list.length>0;
+  }
+
+  document.getElementById("chips").addEventListener("click",function(e){
+    var b = e.target.closest(".chip"); if(!b) return;
+    cat = b.getAttribute("data-c");
+    [].forEach.call(this.children,function(c){c.setAttribute("aria-pressed", c===b);});
+    render();
+  });
+  q.addEventListener("input",render);
+
+  document.getElementById("heroWa").href =
+    waLink("Hello Usha Textiles, I’d like to know about your women’s and kids’ wear.");
+
+  // Open or closed, using India time
+  function status(){
+    var parts = new Intl.DateTimeFormat("en-GB",{timeZone:"Asia/Kolkata",hour:"2-digit",minute:"2-digit",hour12:false})
+      .formatToParts(new Date());
+    var h = +parts.filter(function(p){return p.type==="hour"})[0].value % 24,
+        m = +parts.filter(function(p){return p.type==="minute"})[0].value,
+        mins = h*60+m, open = mins>=10*60+30 && mins<22*60;
+    document.getElementById("dot").className = "dot "+(open?"open":"closed");
+    document.getElementById("statusText").textContent =
+      open ? "Open now until 10:00 PM" : "Closed now. Opens 10:30 AM";
+  }
+
+  document.getElementById("yr").textContent = new Date().getFullYear();
+  render(); status();
+})();
+</script>
+</body>
+</html>
